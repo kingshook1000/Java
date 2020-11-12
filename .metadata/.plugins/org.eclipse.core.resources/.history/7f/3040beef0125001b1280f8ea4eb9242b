@@ -1,0 +1,24 @@
+package plugin.commands;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+
+import plugin.Main;
+
+public class HelloCommand implements CommandExecutor {
+
+	private Main plugin;
+	
+	public HelloCommand(Main plugin) {
+		// TODO Auto-generated constructor stub
+		this.plugin = plugin;
+	}
+	
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] arg) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

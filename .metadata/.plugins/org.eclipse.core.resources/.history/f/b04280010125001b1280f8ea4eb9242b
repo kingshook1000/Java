@@ -1,0 +1,5 @@
+package plugin.commands;
+
+public class HelloCommand {
+
+}

@@ -1,0 +1,4 @@
+name: McPlugin
+version: 1.0
+main: plugin.Main
+description: First Minecraft plugin
